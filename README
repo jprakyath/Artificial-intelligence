@@ -1,0 +1,21 @@
+PACMAN - Implementation of search algorithms:
+
+    Depth-first search;
+    Breadth-first search;
+    Greedy best-first search;
+    A* search. 
+
+Tha mazes can be found in the input folder. The Pacman is indicated by the "P" icon and the goal state is a dot. The maze layout will be given in simple text format, where '%' stands for walls, 'P' for the starting position, and '.' for the goal (see sample maze file). All step costs are equal to one.
+
+For greedy and A* search, the Manhattan distance from the current position to the goal is used as the heuristic function. 
+
+To run the algorithms, execute the following commands:
+
+	$ make
+	$ ./MazeSearch input/example-maze
+
+The output can be seen on the terminal.
+
+
+
+
